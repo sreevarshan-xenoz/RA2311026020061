@@ -16,6 +16,22 @@ Welcome! This project is a streamlined notification hub designed to keep you upd
 - **Live Feed**: Filter and browse notifications with ease, all while keeping track of what you've already seen.
 - **Reliable Logging**: Every important event is tracked, making debugging a breeze.
 
+## 📸 App Tour
+
+Explore the interface of our notification system:
+
+### Main Inbox (Desktop)
+![Main Inbox Desktop](images/desktop_main_inbox.png)
+*A comprehensive view of all notifications with type-based filters and pagination.*
+
+### Priority Inbox (Desktop)
+![Priority Inbox Desktop](images/desktop_priority_inbox.png)
+*Our custom ranking algorithm in action, surfacing the most critical updates first.*
+
+### Mobile Experience
+![Mobile View](images/mobile_view.png)
+*A fully responsive design ensuring you never miss an update on the go.*
+
 ## 🚦 Getting Started
 
 We've made it easy to get up and running:
