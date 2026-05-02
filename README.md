@@ -12,11 +12,11 @@
 Explore the interface of our notification system:
 
 ### Main Inbox (Desktop)
-![Main Inbox Desktop](images/desktop_main_inbox.png)
+![Main Inbox Desktop](images/desktop-main.png)
 *A comprehensive view of all notifications with type-based filters and pagination.*
 
 ### Priority Inbox (Desktop)
-![Priority Inbox Desktop](images/desktop_priority_inbox.png)
+![Priority Inbox Desktop](images/priority_inbox.png)
 *Our custom ranking algorithm in action, surfacing the most critical updates first.*
 
 ### Mobile Experience (Main & Priority)
