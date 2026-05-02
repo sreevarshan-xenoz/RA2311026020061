@@ -47,7 +47,7 @@ const CLIENT_CREDENTIALS_STORAGE_KEY = "evaluationClientCredentials";
 const REGISTRATION_PAYLOAD_STORAGE_KEY = "evaluationRegistrationPayload";
 
 const filterOptions = ["all", "Placement", "Event", "Result"] as const;
-const pageSizeOptions = [5, 10, 20];
+const pageSizeOptions = [5, 10];
 
 function formatTimestamp(value: string) {
   const parsedDate = new Date(value);

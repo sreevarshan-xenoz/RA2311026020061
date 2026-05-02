@@ -21,8 +21,8 @@ import {
 } from "@/utils/priority";
 import { logEvent } from "@/services/logger";
 
-const CANDIDATE_PAGE_SIZE = 20;
-const CANDIDATE_MAX_PAGES = 5;
+const CANDIDATE_PAGE_SIZE = 10;
+const CANDIDATE_MAX_PAGES = 10;
 const PRIORITY_LIMIT = 10;
 
 function toUniqueNotifications(notifications: NotificationItem[]) {
