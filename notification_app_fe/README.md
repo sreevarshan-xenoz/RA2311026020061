@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💻 Notification App Frontend
 
-## Getting Started
+This is the heartbeat of our notification system! Built with **Next.js 15**, **TypeScript**, and **Material UI (MUI)**, it provides a clean and responsive interface for candidates to manage their alerts.
 
-First, run the development server:
+## 🚀 Getting Started
+
+First, make sure you've set up your `.env.local` with the `NEXT_PUBLIC_EVALUATION_API_BASE`.
+
+Then, kick off the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser and you're good to go!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧪 Pre-test Flow
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Before you dive into the UI, you'll need to authenticate. We've simplified this with a dedicated script:
 
-## Learn More
+```bash
+npm run pretest:auth
+```
 
-To learn more about Next.js, take a look at the following resources:
+This script will:
+1. Register your candidate profile (if it's your first time).
+2. Authenticate and grab a fresh bearer token.
+3. Save everything locally so the app is ready to use immediately.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏗 Key Components
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Main Inbox**: Your daily feed of notifications with handy filters.
+- **Priority Inbox**: A dedicated space for the most critical updates, ranked by our custom algorithm.
+- **Setup Panel**: Quickly re-authenticate or clear your local session data.
 
-## Deploy on Vercel
+## 🛠 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Framework**: [Next.js](https://nextjs.org) (App Router)
+- **UI Library**: [Material UI](https://mui.com)
+- **Styling**: [Emotion](https://emotion.sh)
+- **Data Fetching**: Native Fetch API with custom logging middleware
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Happy coding! ✨

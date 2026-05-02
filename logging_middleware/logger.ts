@@ -21,7 +21,10 @@ type LoggedApiRequestOptions<TPayload> = {
   errorMessage: string;
 };
 
-const API_BASE = process.env.NEXT_PUBLIC_EVALUATION_API_BASE ?? "";
+const API_BASE =
+  typeof window !== "undefined"
+    ? "/api/evaluation-service"
+    : (process.env.NEXT_PUBLIC_EVALUATION_API_BASE ?? "");
 const TOKEN_STORAGE_KEY = "evaluationBearerToken";
 const FAILED_LOGS_STORAGE_KEY = "evaluationFailedLogs";
 
