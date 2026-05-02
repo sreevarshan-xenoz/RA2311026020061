@@ -40,4 +40,8 @@ We've made it easy to get up and running:
 2. **Unlock access**: Head into `notification_app_fe/` and run `npm run pretest:auth`. This magic script handles your registration and grabs your token.
 3. **Launch!**: Run `npm run dev` and open [http://localhost:3000](http://localhost:3000).
 
+---
+
+Built with ❤️ by [Your Name/Team] to make campus life just a little bit easier.
+
 Happy exploring! 🥂
