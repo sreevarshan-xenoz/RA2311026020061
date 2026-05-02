@@ -28,8 +28,9 @@ Explore the interface of our notification system:
 ![Priority Inbox Desktop](images/desktop_priority_inbox.png)
 *Our custom ranking algorithm in action, surfacing the most critical updates first.*
 
-### Mobile Experience
-![Mobile View](images/mobile_view.png)
+### Mobile Experience (Main & Priority)
+![Mobile Main Inbox](images/mobile_main_inbox.png)
+![Mobile Priority Inbox](images/mobile_priority_inbox.png)
 *A fully responsive design ensuring you never miss an update on the go.*
 
 ## 🚦 Getting Started
